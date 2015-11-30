@@ -28,6 +28,5 @@ end
 n = GetIp.new
 
 new_ip = n.scrape
-puts new_ip
 n.save new_ip
     
