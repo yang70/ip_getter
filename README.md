@@ -28,7 +28,7 @@ I then set up a [cron job](https://help.ubuntu.com/community/CronHowto) to run t
 4. Make it executable with the following command: `$ chmod +x /usr/local/bin/get_ip`
 4. The script can then be run from the command line with `$ get_ip`
 5. If you want to run the script at a regular interval, edit the current user's `crontab` with `$ crontab -e` or edit the `root` with `$ sudo crontab -e`
-6. Here is an example of my crontab file:
+6. Here is an example of my crontab file which runs once every 2 hours:
 
 ```shell
 1 PATH=/usr/local/bin:/usr/local/sbin:/sbin:/bin:/usr/bin:/usr/sbin:
