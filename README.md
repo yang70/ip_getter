@@ -31,8 +31,8 @@ I then set up a [cron job](https://help.ubuntu.com/community/CronHowto) to run t
 6. Here is an example of my crontab file which runs once every 2 hours:
 
 ```shell
-1 PATH=/usr/local/bin:/usr/local/sbin:/sbin:/bin:/usr/bin:/usr/sbin:
-2 0 */2 * * * /usr/local/bin/get_ip
+PATH=/usr/local/bin:/usr/local/sbin:/sbin:/bin:/usr/bin:/usr/sbin:
+0 */2 * * * /usr/local/bin/get_ip
 ```
 
 You can read more about setting up cron jobs on Ubuntu [here](https://help.ubuntu.com/community/CronHowto) or OSX [here](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html).
