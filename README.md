@@ -1,3 +1,5 @@
+<img src="https://s3.amazonaws.com/mystufftoshare/IPUPDATE+-+Logo+(1).png" width="300px" />
+
 # IP Update - A Ruby Script
 by [Matthew Yang](http://matthewgyang.com)
 
