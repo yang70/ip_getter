@@ -34,6 +34,7 @@ I then set up a [cron job](https://help.ubuntu.com/community/CronHowto) to run t
 PATH=/usr/local/bin:/usr/local/sbin:/sbin:/bin:/usr/bin:/usr/sbin:
 0 */2 * * * /usr/local/bin/get_ip
 ```
+__NOTE:__ You'll probably need to update the permissions on the `ip.json`
 
 You can read more about setting up cron jobs on Ubuntu [here](https://help.ubuntu.com/community/CronHowto) or OSX [here](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html).
 
