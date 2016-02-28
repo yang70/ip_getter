@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require 'capybara'
+require 'capybara/dsl'
 require 'capybara/poltergeist'
 require 'json'
 
